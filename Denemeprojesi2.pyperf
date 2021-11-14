@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>0d8cd984-fc39-47f7-8ffd-797b0e2acb17</TargetProject>
+    <FriendlyName>Denemeprojesi2</FriendlyName>
+  </ProjectTarget>
+  <Reports />
+  <UseVTune>false</UseVTune>
+</ProfilingTarget>
