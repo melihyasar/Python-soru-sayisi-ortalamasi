@@ -98,7 +98,7 @@ elif b =="3":
     f.close()
     print("Hedef ve ortalama sıfırlandı")
     input("Kapatmak için hiçbirşey yazmadan enter a basınız ")
-
+    #Mustafa Melih Yaşar
 
 
 
