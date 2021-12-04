@@ -102,7 +102,7 @@ elif b =="3":#her ikisini de sıfırlamak için
     print("Hedef ve ortalama sıfırlandı")
     input("Kapatmak için hiçbirşey yazmadan enter a basınız ")
     #eğer hiçbir değer girilmez ise veya 1-2-3 den farklı bir değer girilir ise program kapanacaktır
-    #Melih Yaşar
+    
 
 
 
