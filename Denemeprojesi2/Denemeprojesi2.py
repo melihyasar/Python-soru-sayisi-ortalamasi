@@ -49,7 +49,7 @@ f.write(z)
 f.close()
  
   
-f = open(cwdgs, 'r')# toplam gün sayısını al ve 1 ekle
+f = open(cwdgs, 'r')# toplam gün sayısını al ve 1 ekle ve "cwdgs"ye yaz
 q = f.read()
 m = int(q) + 1 
 n = str(m)
