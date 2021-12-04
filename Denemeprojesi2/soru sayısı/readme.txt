@@ -1,1 +1,1 @@
-bunlar;soru sayısı,gün sayısı ve hedeflenen soru sayısının saklandığı txt dosyalarıdır
+bunlar;soru sayısı,gün sayısı ve hedeflenen soru sayısının saklandığı txt dosyalarıdır.Soru sayısı klasörü .py dosyası ile aynı konumda olmalıdır. txt dosyalarının içeriğini manuel olarak değiştirmeye çalışırsanız program çökebilir.
