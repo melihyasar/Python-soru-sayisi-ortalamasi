@@ -24,8 +24,8 @@ print("Soru sayısı ortalaması hesaplayıcı")
 f = open(cwdh, 'r')
 hedef = f.read()
 f.close()
-print("Mevcut hedefiniz " + hedef)
-if int(hedef) > 0: #mevcut hedef var mı kontrol et
+print("Mevcut hedefiniz " + hedef)#mevcut hedefi yaz(yoksa 0 yaz)
+if int(hedef) > 0: #mevcut hedef var mı kontrol et. varsa birşey yapma
   print()
 else:
  
@@ -72,7 +72,8 @@ if ortalama > int(hedef):
 print()
  
 print("Ortalamayı sıfırlamak için 1, hedefi sıfırlamak için 2, ikisini de sıfırlamak için 3 yazın.")
-b = input("Programı kapatmak için hiçbirşey yazmadan enter a basınız ")#kullanıcıya hedef-ortalama veya ikisini de sıfırlamak isteyip istemediğini sor
+b = input("Programı kapatmak için hiçbirşey yazmadan enter a basınız ")#kullanıcıya hedef-ortalama veya ikisini de sıfırlamak isteyip istemediğini sor.istemiyorsa programı kapat.
+#Ortalamayı sıfırlamak için 1,hedefi sıfırlamak için 2,ikisini de sıfırlamak için 3 değeri girilmelidir.
 if b == "1":#ortalamayı sıfırlamak için
     f = open(cwdss, 'w')#"cwdss"yi sıfırla
     f.write("0")
@@ -100,6 +101,7 @@ elif b =="3":#her ikisini de sıfırlamak için
     f.close()
     print("Hedef ve ortalama sıfırlandı")
     input("Kapatmak için hiçbirşey yazmadan enter a basınız ")
+    #eğer hiçbir değer girilmez ise veya 1-2-3 den farklı bir değer girilir ise program kapanacaktır
     #Melih Yaşar
 
 
