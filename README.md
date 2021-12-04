@@ -1,3 +1,3 @@
 # Python-soru-sayisi-ortalamasi
-günlük ortalama soru sayısını hesaplayan python projesi. 
+günlük ortalama soru sayısını hesaplayan ve günlük ortalama soru sayısı hedefi belirleyip hedef ulaşıp ulaşmadığınızı söyleyen python projesi. 
 
